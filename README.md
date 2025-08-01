@@ -5,7 +5,7 @@ A secure and user-friendly authentication system that replaces traditional text-
 
 ---
 
-## 📖 About
+## About
 
 The **Graphical Password Authentication System** is built to offer a more intuitive and secure alternative to traditional password systems. Instead of remembering complex alphanumeric passwords, users authenticate by selecting a sequence of images or clicking specific points on a single image.
 
@@ -13,52 +13,43 @@ This approach makes it harder for attackers to guess or brute-force credentials 
 
 ---
 
-## 🚀 Features
+## Features
 
-- 🖼️ Image-based registration and login  
-- 📌 Click-based or sequence-based password setup  
-- ✅ Validation of user input on image interaction  
-- 🔐 Improved resistance against brute-force and dictionary attacks  
-- 💡 More memorable and user-friendly than traditional passwords  
+- Image-based registration and login  
+- Click-based or sequence-based password setup  
+- Validation of user input on image interaction  
+- Improved resistance against brute-force and dictionary attacks  
+- More memorable and user-friendly than traditional passwords  
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Frontend**: HTML, CSS, JavaScript  
-- **Backend**: Node.js, Express (optional, if storing credentials server-side)  
-- **Database**: MongoDB or LocalStorage (depending on implementation)  
+- **Backend**: Node.js, Express  
+- **Database**: MongoDB  
 
 ---
 
 
----
-
-## 📸 Screenshots
-
-> _Add image-based screenshots showing registration and login interaction._
-
----
-
-## 🧪 How It Works
+## How It Works
 
 1. **Registration**: User selects multiple points on an image (or image sequence).  
-2. **Storage**: Coordinates or selected images are securely stored (hashed if server-side).  
+2. **Storage**: Coordinates or selected images are securely stored .  
 3. **Login**: User clicks the same points or selects the same images in the correct order.  
 4. **Validation**: System compares login pattern with stored one and grants access.  
 
 ---
 
-## 📌 Use Cases
+## Use Cases
 
 - Educational platforms  
-- Internal tools for kids or visually-driven apps  
 - Kiosk systems  
 - Enhanced login security demos  
 
 ---
 
-## ✅ How to Run Locally
+## Installation
 
 ### 1. Clone the repository
 
@@ -71,6 +62,18 @@ cd graphical-password
  ```bash
 cd server
 npm install
-node app.js
+npm start
 ```
+
+ ### 3. Setup Frontend
+
+ ```bash
+cd client
+npm install
+npm start
+```
+
+---
+
+
 
